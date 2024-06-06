@@ -12,6 +12,7 @@ const ExploreMenu = ({ category, setCategory }) => {
       loop: true
     });
 
+
     return () => {
       typed.destroy();
     };

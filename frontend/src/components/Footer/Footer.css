@@ -33,7 +33,7 @@
     margin-bottom: 10px;
     cursor: pointer;
 }
-.footer-social-icons img{
+.footer-social-icons a{
     width: 40px;
     margin-right: 20px;
     cursor: pointer;

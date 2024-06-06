@@ -1,6 +1,9 @@
 import React from 'react'
 import "./Footer.css"
 import { assets } from '../../assets/assets'
+import { FaFacebook } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -12,9 +15,9 @@ const Footer = () => {
 indicating areas for potential improvement in website design, content, or marketing
 strategies</p>
 <div className='footer-social-icons'>
-    <a href=''><img src={assets.facebook_icon}/></a>
-    <a href=''><img src={assets.twitter_icon}/></a>
-    <a href=''><img src={assets.linkedin_icon}/></a>
+    <a href='https://www.facebook.com/mbilal.sajid.73' target='blank'><FaFacebook size="2em" color="white"/></a>
+    <a href='https://www.instagram.com/_b_h_a_l_i_/' target='blank'><FaInstagram size="2em" color="white" /></a>
+    <a href='https://www.linkedin.com/in/muhammad-bilal-sajid/' target='blank'><FaLinkedin size="2em" color="white" /></a>
 </div>
         </div>
         <div className='footer-content-center'>

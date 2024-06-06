@@ -4,7 +4,7 @@
     border-radius: 20px;
     box-shadow: 0 0 10px black;
     transition: 0.3s;
-    animation: fadeIn 1s;
+    /* animation: fadeIn 1s; */
 }
 .food-item-image{
     width: 100%;
