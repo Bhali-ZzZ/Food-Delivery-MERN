@@ -12,7 +12,7 @@ import AllData from './pages/AllData/AllData';
 
 const App = () => {
 
-  const url = "http://localhost:4000" ;
+  const url = "https://food-b-backend.onrender.com" ;
 
   return (
     <div>
